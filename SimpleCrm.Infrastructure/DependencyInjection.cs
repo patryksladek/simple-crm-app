@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using External.TaxpayerListAPI;
+using Microsoft.Extensions.DependencyInjection;
 using SimpleCrm.Domain.Interfaces;
 using SimpleCrm.Infrastructure.Repositories;
 

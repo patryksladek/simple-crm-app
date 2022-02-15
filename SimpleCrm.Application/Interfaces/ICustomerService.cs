@@ -7,5 +7,6 @@ namespace SimpleCrm.Application.Interfaces
         IEnumerable<CustomerDto> GetAllCustomers();
         CustomerDto GetCustomerById(Guid id);
         CustomerDto GetCustomerByTaxNumber(string taxNumber);
+        IEnumerable<CustomerReportDto> GetAllCustomers4Report();
     }
 }

@@ -10,4 +10,8 @@
     <ProjectReference Include="..\SimpleCrm.Application\SimpleCrm.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
 </Project>

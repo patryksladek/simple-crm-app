@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\External.TaxpayerListAPI\External.TaxpayerListAPI.csproj" />
     <ProjectReference Include="..\SimpleCrm.Domain\SimpleCrm.Domain.csproj" />
   </ItemGroup>
 

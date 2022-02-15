@@ -38,5 +38,13 @@ namespace SimpleCrm.WebAPI.Controllers
             var customer = _customerService.GetCustomerByTaxNumber(taxNumber);
             return customer != null ? Ok(customer) : NotFound();
         }
+
+        [SwaggerOperation(Summary = "Retrieves all customers for report")]
+        [HttpGet("[action]")]
+        public IActionResult Get4Report()
+        {
+            var customers = _customerService.GetAllCustomers4Report();
+            return Ok(customers);
+        }
     }
 }

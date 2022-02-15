@@ -5,7 +5,6 @@ namespace SimpleCrm.Infrastructure.Repositories
 {
     public class CustomerRepository : ICustomerRepository
     {
-
         private readonly HashSet<Customer> _customers = new HashSet<Customer>()
         {
             new Customer() 
@@ -35,7 +34,7 @@ namespace SimpleCrm.Infrastructure.Repositories
 
         public IQueryable<Customer> GetAll() 
             => _customers.AsQueryable();
-        
+
 
         public Customer GetById(Guid id) 
             => _customers.AsQueryable().SingleOrDefault(x => x.Id == id);
@@ -43,6 +42,5 @@ namespace SimpleCrm.Infrastructure.Repositories
 
         public Customer GetByTaxNumber(string taxNumber) 
             => _customers.AsQueryable().SingleOrDefault(x => x.TaxNumber == taxNumber);
-        
     }
 }

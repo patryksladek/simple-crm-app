@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrm.Application", "Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrm.WebAPI", "SimpleCrm.WebAPI\SimpleCrm.WebAPI.csproj", "{7D0BE9C2-DA4B-4D3C-999C-044CDF629CE1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{61BAAF50-4CA8-4A1D-9906-F5C3697D3583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "External.TaxpayerListAPI", "External.TaxpayerListAPI\External.TaxpayerListAPI.csproj", "{8ADA3650-B266-48CA-9FE6-190BC469B180}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +37,16 @@ Global
 		{7D0BE9C2-DA4B-4D3C-999C-044CDF629CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D0BE9C2-DA4B-4D3C-999C-044CDF629CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D0BE9C2-DA4B-4D3C-999C-044CDF629CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADA3650-B266-48CA-9FE6-190BC469B180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADA3650-B266-48CA-9FE6-190BC469B180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADA3650-B266-48CA-9FE6-190BC469B180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADA3650-B266-48CA-9FE6-190BC469B180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8ADA3650-B266-48CA-9FE6-190BC469B180} = {61BAAF50-4CA8-4A1D-9906-F5C3697D3583}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3441C4DE-E407-4223-8A3A-598F26C1DCEF}
